@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# floyd
+.floyd*
+floyd*
+
 # Distribution / packaging
 .Python
 build/
