@@ -56,5 +56,5 @@ learn.fit_one_cycle(10, slice(1e-06, 1e-03), pct_start=0.9)
 learn.unfreeze()
 learn.fit_one_cycle(12, slice(1e-5, 1e-4), pct_start=0.8)
 
-# save model
-learn.save('fastai-segmentation-model')
+# export model
+learn.export("output/model.pkl")
