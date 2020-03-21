@@ -57,4 +57,5 @@ learn.unfreeze()
 learn.fit_one_cycle(12, slice(1e-5, 1e-4), pct_start=0.8)
 
 # export model
-learn.export("output/model.pkl")
+# floydpath
+learn.export("../../../../output/model.pkl")
